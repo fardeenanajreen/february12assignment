@@ -1,0 +1,40 @@
+oiltin=2200
+almonds=500
+soap=30
+handbag=300
+bottles=250
+cname=input('Enter customer name:')
+otq=int(input('Enter no.of oiltins:'))
+alq=int(input('Enter no.of almonds:'))
+sq=int(input('Enter no.of soaps:'))
+hbq=int(input('Enter no.of handbags:'))
+pbq=int(input('Enter no.of bottles:'))
+bill=(oiltin*otq)+(almonds*alq)+(soap*sq)+(handbag*hbq)+(bottles*bq)
+if bill>=5000:
+    dis=bill*10/100
+    tax=bill*10/100
+elif bill>=3000:
+    dis=bill*8/100
+    tax=bill*10/100
+elif bill>=2000:
+    dis=bill*5/100
+    tax=bill*18/100
+elif bill>=1000:
+    dis=bil*3/100
+    tax=bill*18/100
+else:
+    dis=0
+    tax=bill*18/100
+mainbill=bill-dis+tax
+print('bill amount:',mainbill)
+
+
+
+OUTPUT:
+Enter customer name:Najreen
+Enter no.of oiltins:1
+Enter no.of almonds:1
+Enter no.of soaps:1
+Enter no.of handbags:1
+Enter no.of bottles:1
+bill amount:3345.6
